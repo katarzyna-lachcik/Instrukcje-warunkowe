@@ -1,7 +1,8 @@
 var a = prompt('a='),
 	b = prompt('b='),
 	value = (a*a)+(2*a*b)-(b*b);
-
+alert('Wynik działania (a * a) + (2 * a * b) - (b * b) = ' + value);
+console.log('Wynik działania (a * a) + (2 * a * b) - (b * b) = ' + value);
 
 if (value > 0){
 	console.log('wynik dodatni');
